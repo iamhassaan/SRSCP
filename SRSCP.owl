@@ -1,0 +1,2028 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#"
+     xml:base="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AncestorOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AncestorOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasAncestorCar"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#BodyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#BodyOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasBody"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CheaperThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CheaperThan">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ExpensiveThan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EngineOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EngineOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasEngine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ExpensiveThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ExpensiveThan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelTypeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelTypeOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasFuel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturedBy">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturerOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturerOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturerOf"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PowerfulThan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PowerfulThan">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SeatingOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SeatingOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasSeats"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TransmissionOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TransmissionOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasTransmission"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDriveOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDriveOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheelDrive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasAncestorCar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasAncestorCar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasBody -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasBody">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasEngine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasEngine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Engine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasFuel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasFuel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasHybridVersion -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasHybridVersion">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasRival -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasRival">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasSeats -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasSeats">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasTransmission -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasTransmission">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Transmission"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheelDrive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheelDrive">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheels -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheels">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Wheels"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Boot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Boot">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CO2Emissions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CO2Emissions">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HorsePower -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HorsePower">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturingYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturingYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mileage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mileage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Model -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Model">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SecondFuel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SecondFuel">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TopSpeed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TopSpeed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Weight -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Weight">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Affordable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Affordable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PriceRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AllWheelDrive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AllWheelDrive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AverageConsumer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AverageConsumer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PriceRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Battery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Battery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Bikes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Bikes">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheels"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheels"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasWheels"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheels"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automobiles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EcoFriendlyCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EcoFriendlyCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Environmental_Impact_Of_Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Engine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Engine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Environmental_Impact_Of_Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Environmental_Impact_Of_Car"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FossilFuels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FossilFuels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RenewableEnergy"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Wheels"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficiencyOfCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficiencyOfCar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficientCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficientCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficiencyOfCar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Luxury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Luxury">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PriceRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonEcoFriendlyCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonEcoFriendlyCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Environmental_Impact_Of_Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonFuelEfficientCar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonFuelEfficientCar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficiencyOfCar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PriceRange -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PriceRange"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RenewableEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RenewableEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Fuel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Transmission -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Transmission"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheelDrive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheelDrive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Wheels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Wheels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Wheels"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Audi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Audi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8">
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Audi"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sedan"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#3.0LV6"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RearWheelDrive"/>
+        <hasWheels rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelChassis"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">149</CO2Emissions>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</Mileage>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155</TopSpeed>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</Weight>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Transmission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ElectricMotor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ElectricMotor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Electricity -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Electricity">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RenewableEnergy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FiveSeaterDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FiveSeaterDrive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourSeater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourSeater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelChassis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelChassis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheels"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelDrive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AllWheelDrive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FrontWheelDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FrontWheelDrive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheelDrive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HatchBack -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HatchBack">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey">
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MiniVan"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#3.0LV6"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SevenSeater"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FrontWheelDrive"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</CO2Emissions>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">22</Mileage>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</TopSpeed>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</Weight>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HybridBattery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HybridBattery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Battery"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#LandRover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#LandRover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Manual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Manual">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Transmission"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-43 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-43">
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HatchBack"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#2.0L4Cylinder"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Manual"/>
+        <ManufacturingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</ManufacturingYear>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</Mileage>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes"/>
+        <PowerfulThan rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-43"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HatchBack"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#2.0L4Cylinder"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourSeater"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FrontWheelDrive"/>
+        <hasWheels rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelChassis"/>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">110</CO2Emissions>
+        <HorsePower rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</HorsePower>
+        <ManufacturingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</ManufacturingYear>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33</Mileage>
+        <Model rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1277654</Model>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</TopSpeed>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1635</Weight>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45-Hybrid -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45-Hybrid">
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FrontWheelDrive"/>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</CO2Emissions>
+        <HorsePower rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</HorsePower>
+        <ManufacturingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</ManufacturingYear>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</Mileage>
+        <Model rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1277654</Model>
+        <SecondFuel>BatteryCharge</SecondFuel>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">168</TopSpeed>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes"/>
+        <PowerfulThan rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sedan"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#3.0LV6"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourSeater"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RearWheelDrive"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">135</CO2Emissions>
+        <ManufacturingYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2021</ManufacturingYear>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</Mileage>
+        <SecondFuel>BatteryCharge</SecondFuel>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1700</TopSpeed>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1460</Weight>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23035</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MiniVan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MiniVan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FossilFuels"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porche718 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porche718">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porsche"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sports"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoSeater"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Manual"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RearWheelDrive"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">160</CO2Emissions>
+        <HorsePower rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</HorsePower>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</Mileage>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</TopSpeed>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porsche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porsche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PorscheTaycan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PorscheTaycan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porsche"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sports"/>
+        <hasEngine rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ElectricMotor"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Electricity"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoSeater"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelDrive"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</CO2Emissions>
+        <HorsePower rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</HorsePower>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</Mileage>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">162</TopSpeed>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+        <ManufacturedBy rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#LandRover"/>
+        <hasBody rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SUV"/>
+        <hasFuel rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Petrol"/>
+        <hasSeats rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FiveSeaterDrive"/>
+        <hasTransmission rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Automatic"/>
+        <hasWheelDrive rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FourWheelDrive"/>
+        <Boot rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</Boot>
+        <CO2Emissions rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</CO2Emissions>
+        <Mileage rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</Mileage>
+        <TopSpeed rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</TopSpeed>
+        <Weight rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1787</Weight>
+        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89000</price>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RearWheelDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RearWheelDrive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoWheelDrive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SUV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SUV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sedan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sedan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SevenSeater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SevenSeater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SixWheelDrive -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SixWheelDrive">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#WheelDrive"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Body"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoSeater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#TwoSeater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Seats"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#2.0L4Cylinder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#2.0L4Cylinder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#3.0LV6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#3.0LV6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Engine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PorscheTaycan"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AudiA8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#HondaOdyssey"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-43"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45-Hybrid"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mercedes-AMG-A-45-Hybrid"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PorscheTaycan"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#MercedesCClass"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#RangeRover"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Porche718"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#PorscheTaycan"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#w">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#cc">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Affordable</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Affordable"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuel Efficiency</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mileage"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#FuelEfficientCar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S6</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Mileage"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonFuelEfficientCar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Symmetric</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hasRival</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasEngine"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EngineOf"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasRival"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asymmetric</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transitive</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturingYear"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturedBy"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturerOf"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturingYear"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#w"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                        <swrl:arguments rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#w"/>
+                                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasAncestorCar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irreflexive</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hybrid</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasFuel"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Model"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturedBy"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ManufacturerOf"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#z"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o"/>
+                                                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                        <rdf:first>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#SecondFuel"/>
+                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o"/>
+                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                                            </rdf:Description>
+                                                        </rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                <rdf:first>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#contains"/>
+                                                                        <swrl:arguments>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                                                                <rdf:rest>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Battery</rdf:first>
+                                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                                    </rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                        </swrl:arguments>
+                                                                    </rdf:Description>
+                                                                </rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                        <rdf:first>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                                                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Model"/>
+                                                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o"/>
+                                                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#cc"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:first>
+                                                                        <rdf:rest>
+                                                                            <rdf:Description>
+                                                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                                                <rdf:first>
+                                                                                    <rdf:Description>
+                                                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#equal"/>
+                                                                                        <swrl:arguments rdf:parseType="Collection">
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#c"/>
+                                                                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#cc"/>
+                                                                                        </swrl:arguments>
+                                                                                    </rdf:Description>
+                                                                                </rdf:first>
+                                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                            </rdf:Description>
+                                                                        </rdf:rest>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#hasHybridVersion"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#o"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irreflexive</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ExpensiveThan</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                            <rdf:Description rdf:about="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#y"/>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DifferentIndividualsAtom"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#ExpensiveThan"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#q"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non Eco Friendly Car</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CO2Emissions"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#NonEcoFriendlyCar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EcoFriendlyCar</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#CO2Emissions"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">150</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#EcoFriendlyCar"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AverageConsumer</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                <swrl:arguments>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</rdf:first>
+                                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </swrl:arguments>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#AverageConsumer"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Luxury</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Cars"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#price"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#x"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50000</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#Luxury"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/acer/ontologies/2020/4/untitled-ontology-21#p"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
